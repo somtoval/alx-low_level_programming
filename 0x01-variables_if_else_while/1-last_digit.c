@@ -11,7 +11,6 @@ int main(void)
 {
 	int n;
 	int x;
-	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
@@ -29,7 +28,6 @@ int main(void)
 	{
 		printf("and is less than 6 and not 0");
 	}
-	
 	printf("\n");
 
 	return (0);
